@@ -1,0 +1,22 @@
+.section-one{
+    background-color: beige;
+    @include flex(column,flex-end,center);
+    h2{
+        font-family: $tipografia-principal;
+    //    color: map-get( $colors, $key:secundario);
+    }
+    p{
+        font-family: $tipografia-secundaria;
+    }
+}
+
+.section-two{
+    color: blue;
+    font-size: 40px;
+    width: 50px;
+}
+
+.section-tres{
+    @extend .section-two;
+    color: red;
+}

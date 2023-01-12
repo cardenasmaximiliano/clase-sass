@@ -1,0 +1,19 @@
+header{
+    background-color: $back-principal;
+    @include flex(row, center,flex-end);
+    div{
+        background-color: rgb(173, 224, 241);
+        width: 50%;
+        h1{
+            color: black;
+            font-size: ($fuente*2);
+            font-family: $tipografia-principal;
+        }
+        p{
+            font-family: $tipografia-secundaria;
+        }
+    }
+}
+div{
+    @include box-model(20px,30px,2px solid black,50%)
+}

@@ -1,0 +1,15 @@
+@media (max-width:768px){
+    header{
+        background-color: green;
+        div{
+            background-color: purple;
+         
+        }
+    }
+}
+
+@media (max-width:650px){
+    header{
+        background-color: purple;
+    }
+}

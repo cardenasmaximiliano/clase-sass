@@ -1,0 +1,12 @@
+@mixin flex($uno, $dos, $tres){
+    display: flex;
+    flex-direction: $uno;
+    justify-content: $dos;
+    align-items: $tres;
+}
+@mixin box-model($padding, $margin, $border, $border-radious){
+    padding: $padding;
+    margin: $margin;
+    border: $border;
+    border-radius: $border-radious;
+}
